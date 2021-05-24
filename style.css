@@ -39,7 +39,8 @@ section#home {
 
 #timer {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 12px;
 }
 
 #day, #hour, #mins, #secs {
@@ -53,7 +54,7 @@ section#home {
     align-items: center;
     background-image: linear-gradient(#FD297A, #9424F0);
     margin-top: 10px;
-    font-size: 24px;
+    font-size: 20px;
 }
 
 #about {
