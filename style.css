@@ -1,16 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400&display=swap');
 html {
     scroll-behavior: smooth;
-
 }
 body {
+    overflow: auto;
     margin: 0;
     padding: 0;
     font-family: 'Oswald', sans-serif !important;
 }
 .nav-item {
-    font-family: sans-serif;
-    font-size: 18px;
+    font-size: 28px;
     font-style: normal;
 }
 .nav-link {
@@ -37,24 +36,24 @@ section#home {
     background-position:center;
     background-size: cover;
 }
+
 #timer {
     display: flex;
-    flex-direction: row;
-    justify-content: space-around; 
+    justify-content: space-between;
 }
 
 #day, #hour, #mins, #secs {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     color: #FFFFFF;
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
     border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
     background-image: linear-gradient(#FD297A, #9424F0);
     margin-top: 10px;
-    font-size: 28px;
+    font-size: 24px;
 }
 
 #about {

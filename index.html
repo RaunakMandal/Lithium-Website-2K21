@@ -1,82 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lithium 2K21</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lithium 2K21</title>
 
-    <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css">
 
-    <!-- Javascript -->
-    <script src="script.js"></script>
+  <!-- Javascript -->
+  <script src="script.js"></script>
 
-    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
-    <!-- Bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+    crossorigin="anonymous"></script>
 
 </head>
+
 <body onload="typing()">
 
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-trans">
-        <div class="container-fluid">
-            <!-- add logo here -->
-          <a class="navbar-brand" href="#">Lithium</a> 
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 navbar-right">
-              <li class="nav-item">
-                <a class="nav-link" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#about">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#events">Events</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Team</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Contact Us</a>
-              </li>
-            </ul>
-        </div>
-      </nav>
-
-    <section id="home">
-      <div class="container">
-        <div class="row">
-          <h1 style="color: aliceblue;">LITHIUM 2K21</h1>
-        </div>
-        <div class="row">
-          <h1 style="color: aliceblue;">The Official Freshers' Welcome of BiT</h1>
-        </div>
-        <div class="row">
-          <h1 style="color: aliceblue;">There will be <span class="changing"></span></h1>
-        </div>
-        <div class="row" id="timer">
-          <div class="col-lg-3" id="day"><span id="daytext"></span></div>
-          <div class="col-lg-3" id="hour"><span id="hourtext"></span></div>
-          <div class="col-lg-3" id="mins"><span id="minstext"></span></div>
-          <div class="col-lg-3" id="secs"><span id="secstext"></span></div>
-        </div>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-trans">
+    <div class="container-fluid">
+      <!-- add logo here -->
+      <a class="navbar-brand" href="#">Lithium</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 navbar-right">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#events">Events</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Team</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact Us</a>
+          </li>
+        </ul>
       </div>
-    </section>
+  </nav>
 
-    <section id="about">
-      <h1>About</h1>
-    </section> 
+  <section id="home" style="overflow: hidden;">
+    <div class="container">
+      <div class="row">
+        <h1 style="color: aliceblue;">LITHIUM 2K21</h1>
+      </div>
+      <div class="row">
+        <h1 style="color: aliceblue;">The Official Freshers' Welcome of BiT</h1>
+      </div>
+      <div class="row">
+        <h1 style="color: aliceblue;">There will be <span class="changing"></span></h1>
+      </div>
+      <div id="timer">
+        <div id="day"><span id="daytext"></span></div>
+        <div id="hour"><span id="hourtext"></span></div>
+        <div id="mins"><span id="minstext"></span></div>
+        <div id="secs"><span id="secstext"></span></div>
+      </div>
+    </div>
+  </section>
 
-    <section id="events">
-      <h1>Events</h1>
-    </section>
+  <section id="about" style="overflow: hidden;">
+    <div class="container">
+      <h1 style="color: aliceblue;">About</h1>
+      <p style="font-size: 20px; color: aliceblue;">Every year it is a customary in our college Bengal Institute of
+        Technology to celebrate the Fresher’s Day. The aim of conducting this day is to make the juniors feel welcome
+        and to interact with them. The new academic year brings happiness and joy with the arrival of the juniors. To
+        welcome them to the department and make them feel at home, the institute organizes a Fresher’s Day, giving the
+        new comers a step towards their graduation from the schooling days.<br>
+
+        “A hundred new faces, but a million dreams” is what this occasion can be best described as. Welcoming these
+        hundred odd a bright faces to an unchartered ocean of knowledge, fear and anxiety are bound to creep into these
+        novice minds.</p>
+
+    </div>
+  </section>
+
+  <section id="events">
+    <h1>Events</h1>
+    
+  </section>
 
 </body>
+
 </html>
