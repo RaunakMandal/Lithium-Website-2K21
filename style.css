@@ -1,10 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400&display=swap');
 html {
     scroll-behavior: smooth;
+
 }
-.body {
+body {
     margin: 0;
     padding: 0;
+    font-family: 'Oswald', sans-serif !important;
 }
 .nav-item {
     font-family: sans-serif;
@@ -30,32 +32,29 @@ section {
   }
 
 section#home {
-    /* background-image: url("https://pbs.twimg.com/media/DmN2UDhUUAADJ27.jpg"); */
+    background-image: linear-gradient(#FF9F4A, #FF3C83);
     background-repeat:no-repeat;
     background-position:center;
     background-size: cover;
-    background-color: #FF9F4A;
 }
 #timer {
-    font-size: 28px;
-    height: 150px;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    font-family: 'Oswald', sans-serif;
-    font-size: 16px;
+    justify-content: space-around; 
 }
 
 #day, #hour, #mins, #secs {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     color: #FFFFFF;
     width: 150px;
+    height: 150px;
     border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
     background-image: linear-gradient(#FD297A, #9424F0);
     margin-top: 10px;
+    font-size: 28px;
 }
 
 #about {

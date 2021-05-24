@@ -12,6 +12,14 @@ var x = setInterval(function() {
     document.getElementById("hourtext").innerHTML = hours + "<br>HOURS";
     document.getElementById("minstext").innerHTML = minutes + "<br>MINS";
     document.getElementById("secstext").innerHTML = seconds + "<br>SECS";
-
-
 }, 1000);
+
+// Changing Text
+var typing = () => {
+    var type = new Typed(".changing", {
+        strings: ["Dance", "Drama", "Mr and Ms Fresher", "Singing"],
+        typeSpeed: 100,
+        backSpeed: 80,
+        loop: true
+    });
+};
