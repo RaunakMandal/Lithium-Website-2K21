@@ -3,7 +3,7 @@ html {
     scroll-behavior: smooth;
 }
 body {
-    overflow: auto;
+    /* overflow: hidden; */
     margin: 0;
     padding: 0;
     font-family: 'Oswald', sans-serif !important;
@@ -28,6 +28,7 @@ section {
     text-align: center;
     width: 100%;
     height: 100vh;
+    overflow: hidden;
   }
 
 section#home {
@@ -37,13 +38,13 @@ section#home {
     background-size: cover;
 }
 
-#timer {
+#timer, #event_c {
     display: flex;
     justify-content: center;
     gap: 12px;
 }
 
-#day, #hour, #mins, #secs {
+#time{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     color: #FFFFFF;
     width: 100px;
@@ -69,4 +70,18 @@ section#home {
     background-position:center;
     background-size: cover;
     background-color: #6F00ED;
+}
+
+#col_new {
+    margin-top: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.card-img {
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
 }
