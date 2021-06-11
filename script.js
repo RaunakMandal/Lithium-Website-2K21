@@ -1,13 +1,20 @@
 $(document).ready(function () {
   // Changing Text Animation
   var type = new Typed(".changing", {
-    strings: ["Music", "Drama", "Dance", "Recitation", "Talent Hunt", "Mr and Miss Freshers"],
+    strings: [
+      "Music",
+      "Drama",
+      "Dance",
+      "Recitation",
+      "Talent Hunt",
+      "Mr and Miss Freshers",
+    ],
     typeSpeed: 100,
     backSpeed: 60,
     loop: true,
   });
   // Countdown
-  var finalDate = new Date("Jun 1, 2021").getTime();
+  var finalDate = new Date("Jun 20, 2021").getTime();
   var x = setInterval(function () {
     var now = new Date().getTime();
     var distance = finalDate - now;
