@@ -1,8 +1,158 @@
 [
-    {
-        "name": "Shrestha Banerjee",
-        "team": "Test",
-        "social": "https://***",
-        "img": "test.jpg"
-    }
+  {
+    "name": "Adrija Mahato",
+    "team": "Drama, Grooming",
+    "social": "https://www.instagram.com/adrijamahato/",
+    "img": "adrija.jpg"
+  },
+  {
+    "name": "Ritankar Chakraborty",
+    "team": "Editing",
+    "social": "https://www.facebook.com/profile.php?id=100005118529345",
+    "img": "ritankar.jpg"
+  },
+  {
+    "name": "Anisha Mallick",
+    "team": "Logo Design",
+    "social": "https://www.facebook.com/anisha.mallick.9699",
+    "img": "anisha.jpg"
+  },
+  {
+    "name": "Ayan Malik",
+    "team": "Drama",
+    "social": "https://www.facebook.com/profile.php?id=100013838824650",
+    "img": ".jpg"
+  },
+  {
+    "name": "Aritra Chowdhury",
+    "team": "Editing",
+    "social": "https://www.facebook.com/aritra.chowdhury.549",
+    "img": "aritra.jpg"
+  },
+  {
+    "name": "Shatabdi Ganguly",
+    "team": "Grooming",
+    "social": "https://www.instagram.com/shatabdi.ganguly?r=nametag",
+    "img": "shatabdi.jpg"
+  },
+  {
+    "name": "Saptangsu Modak",
+    "team": "Dance, Grooming",
+    "social": "https://instagram.com/excalibur.2001?utm_medium=copy_link",
+    "img": "saptangsu.jpg"
+  },
+  {
+    "name": "Shreshtha Banerjee",
+    "team": "Dance",
+    "social": "https://www.facebook.com/profile.php?id=100011578008570",
+    "img": "shreshtha.jpg"
+  },
+  {
+    "name": "Suvroneel Nathak",
+    "team": "Drama, Editing",
+    "social": "https://www.facebook.com/suvroneel.nathak.1",
+    "img": ".jpg"
+  },
+  {
+    "name": "Sudipta Chakraborty",
+    "team": "Drama, Music",
+    "social": "https://www.facebook.com/profile.php?id=100047731022821",
+    "img": "sudipta.jpg"
+  },
+  {
+    "name": "Shreyanka Nandy",
+    "team": "Grooming",
+    "social": "https://www.facebook.com/profile.php?id=100009007363867",
+    "img": "shreyanka"
+  },
+  {
+    "name": "Aditi Chatterjee",
+    "team": "Logo Design",
+    "social": "https://www.instagram.com/_.adi.tea__/",
+    "img": "aditi.jpg"
+  },
+  {
+    "name": "Shreya Dutta",
+    "team": "Dance",
+    "social": "https://www.facebook.com/profile.php?id=100034879712890",
+    "img": "shreya.jpg"
+  },
+  {
+    "name": "Swastika Ghosh",
+    "team": "Dance, Grooming",
+    "social": "https://www.facebook.com/profile.php?id=100040066356240",
+    "img": "swastika.jpg"
+  },
+  {
+    "name": "Preetha Mazumder",
+    "team": "Dance, Drama",
+    "social": "https://www.facebook.com/stephenitespiu.majumdar",
+    "img": "preetha.jpg"
+  },
+  {
+    "name": "Aditya Anand",
+    "team": "Grooming",
+    "social": "https://m.facebook.com/aditya.karn.9216",
+    "img": "aditya.jpg"
+  },
+  {
+    "name": "Pallavi Dhar",
+    "team": "Dance, Grooming",
+    "social": "https://www.instagram.com/pallavi_dhar_?r=nametag",
+    "img": "pallavi.jpg"
+  },
+  {
+    "name": "Stela Halder",
+    "team": "Dance, Grooming",
+    "social": "https://www.instagram.com/____the_mystical_drug/",
+    "img": "stela.jpg"
+  },
+  {
+    "name": "Rimi Hazra",
+    "team": "Dance",
+    "social": "https://www.instagram.com/oh_my_god_someone_actually___/",
+    "img": "rimi.jpg"
+  },
+  {
+    "name": "Shuvra Das",
+    "team": "Logo Design",
+    "social": "https://www.instagram.com/s_h_u_v_r_a_o8/",
+    "img": "shuvra.jpg"
+  },
+  {
+    "name": "Charchika Biswas",
+    "team": "Dance, Drama",
+    "social": "https://www.instagram.com/_.charchika.__/",
+    "img": "charchika.jpg"
+  },
+  {
+    "name": "Saraswata Jash",
+    "team": "Music",
+    "social": "https://www.instagram.com/hold_my_taaffeite/",
+    "img": "saraswata.jpg"
+  },
+  {
+    "name": "Subhadeep Banerjee",
+    "team": "Grooming",
+    "social": "https://www.facebook.com/subhadeep.banerjee.372",
+    "img": "subhadeep.jpg"
+  },
+  {
+    "name": "Ananya Ghosh",
+    "team": "Dance, Grooming",
+    "social": "https://instagram.com/ononyaaa__?utm_medium=copy_link",
+    "img": "ananya.jpg"
+  },
+  {
+    "name": "Neha Singh",
+    "team": "Dance",
+    "social": "https://instagram.com/silvershadde?utm_medium=copy_link",
+    "img": "neha.jpg"
+  },
+  {
+    "name": "Debolina Bhattacharjee",
+    "team": "Dance, Grooming",
+    "social": "https://instagram.com/camouflage__girl77?utm_medium=copy_link",
+    "img": "debolina.jpg"
+  }
 ]
