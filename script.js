@@ -29,11 +29,6 @@ const navSlide = () => {
 $(document).ready(function () {
   navSlide();
 
-  $(".slider").slick({
-    centerMode: true,
-    slidesToWhow: 3,
-  });
-
   // Changing Text Animation
   var type = new Typed(".changing", {
     strings: [
@@ -66,13 +61,33 @@ $(document).ready(function () {
     document.getElementById("secstext").innerHTML = seconds + "<br>SECS";
   }, 1000);
 
-  $.getJSON("team.json", (json) => {
-    console.log(json);
-    var doc = document.getElementsByClassName("slider");
-    doc[0].innerHTML = "";
-
-    for (let i = 0; i < json.length; i++) {
-      doc[0].innerHTML += `<div class="item"><div class="item-inner"><img src='assets/${json[i].img}'><h4>${json[i].name}</h4><p>${json[i].team}</p><div class="social"><a href="${json[i].social}"><button type="button" class="btn btn-primary">Connect</button></a></div></div></div>`;
-    }
+  $(".owl-carousel").owlCarousel({
+    items: 3,
+    loop: true,
+    margin: 10,
+    autoplay: true,
+    autoplayTimeout: 3000,
+    autoplayHoverPause: true,
+    nav: false,
+    dots: false,
+    responsiveClass: true,
+    responsive: {
+      0: {
+        items: 2,
+      },
+      600: {
+        items: 3,
+      },
+      1000: {
+        items: 4,
+        loop: true,
+      },
+    },
+  });
+  $(".play").on("click", function () {
+    owl.trigger("play.owl.autoplay", [1000]);
+  });
+  $(".stop").on("click", function () {
+    owl.trigger("stop.owl.autoplay");
   });
 });

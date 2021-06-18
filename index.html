@@ -8,9 +8,12 @@
   <title>Lithium 2K21</title>
 
   <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css"
-    integrity="sha512-wR4oNhLBHf7smjy0K4oqzdWumd+r5/+6QO/vDda76MW5iug4PT7v86FoEkySIJft3XA0Ae6axhIvHrqwm793Nw=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.0.0-beta.3/assets/owl.carousel.min.css">
+  <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.0.0-beta.3/assets/owl.theme.default.min.css">
+
+
 
   <!-- Javascript -->
 
@@ -19,9 +22,8 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
   <script src="script.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
-    integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
-    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.0.0-beta.3/owl.carousel.min.js"></script>
   <!-- Bootstrap -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
@@ -123,58 +125,269 @@
           <span class="visually-hidden">Next</span>
         </button>
       </div>
+    </div>
   </section>
 
   <section id="team">
     <div class="container">
-      <div class="display-4">Student Team</div>
-      <div class="card2">
-        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <div id="event_card" class="card bg-dark text-white">
-                <img
-                  src="https://images.unsplash.com/photo-1583139937725-8ccafdb2db1b?ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8c2V4eSUyMGdpcmx8ZW58MHx8MHx8&ixlib=rb-1.2.1&w=1000&q=80"
-                  class="card-img">
-                <div class="card-img-overlay">
-                  <h1 class="display-5">Music</h1>
-                </div>
-              </div>
-            </div>
-            <div class="carousel-item active">
-              <div id="event_card" class="card bg-dark text-white">
-                <img
-                  src="https://images.unsplash.com/photo-1583139937725-8ccafdb2db1b?ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8c2V4eSUyMGdpcmx8ZW58MHx8MHx8&ixlib=rb-1.2.1&w=1000&q=80"
-                  class="card-img">
-                <div class="card-img-overlay">
-                  <h1 class="display-5">Dance</h1>
-                </div>
-              </div>
-            </div>
+      <div class="display-6">Team</div>
+      <img id="tchr" src="assets/teacher.jpeg" class="card-img-top">
+      <div class="card-body">
+        <h3 class="card-title">Kuntala Das</h3>
+        <h4 class="card-text">Assistant Professor</h4>
+      </div>
+      <div class="display-6">Student Team</div><br>
+      <div class="owl-carousel owl-theme">
+        <div class="card">
+          <img src="assets/adrija.jpg" class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title">Adrija Mahato</h5>
+            <p class="card-text">Drama, Grooming</p>
+            <button class="btn btn-success"><a href="https://www.instagram.com/adrijamahato/">Connect</a></button>
           </div>
-          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
-            data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
-            data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
+        </div>
+        <div class="card">
+          <img src="assets/ritankar.jpg" class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title">Ritankar Chakraborty</h5>
+            <p class="card-text">Editing</p>
+            <button class="btn btn-success"><a
+                href="https://www.facebook.com/profile.php?id=100005118529345">Connect</a></button>
+          </div>
+        </div>
+        <div class="card">
+          <img src="assets/anisha.jpg" class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title">Anisha Mallick</h5>
+            <p class="card-text">Logo Design</p>
+            <button class="btn btn-success"><a href="https://www.facebook.com/anisha.mallick.9699">Connect</a></button>
+          </div>
+        </div>
+        <div class="card">
+          <img src="assets/ayan.jpg" class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title">Ayan Malik</h5>
+            <p class="card-text">Drama</p>
+            <button class="btn btn-success"><a
+                href="https://www.facebook.com/profile.php?id=100013838824650">Connect</a></button>
+          </div>
+        </div>
+        <div class="card">
+          <img src="assets/aritra.jpg" class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title">Aritra Chowdhury</h5>
+            <p class="card-text">Editing</p>
+            <button class="btn btn-success"><a href="https://www.facebook.com/aritra.chowdhury.549">Connect</a></button>
+          </div>
+        </div>
+        <div class="card">
+          <img src="assets/shatabdi.jpg" class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title">Shatabdi Ganguly</h5>
+            <p class="card-text">Grooming</p>
+            <button class="btn btn-success"><a
+                href="https://www.instagram.com/shatabdi.ganguly?r=nametag">Connect</a></button>
+          </div>
+        </div>
+        <div class="card">
+          <img src="assets/saptangsu.jpg" class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title">Saptangsu Modak</h5>
+            <p class="card-text">Dance, Grooming</p>
+            <button class="btn btn-success"><a
+                href="https://instagram.com/excalibur.2001?utm_medium=copy_link">Connect</a></button>
+          </div>
+        </div>
+        <div class="card">
+          <img src="assets/shreshtha.jpg" class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title">Shreshtha Banerjee</h5>
+            <p class="card-text">Dance</p>
+            <button class="btn btn-success"><a
+                href="https://www.facebook.com/profile.php?id=100011578008570">Connect</a></button>
+          </div>
+        </div>
+        <div class="card">
+          <img src="assets/nathak.jpg" class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title">Suvroneel Nathak</h5>
+            <p class="card-text">Drama, Editing</p>
+            <button class="btn btn-success"><a href="https://www.facebook.com/suvroneel.nathak.1">Connect</a></button>
+          </div>
+        </div>
+        <div class="card">
+          <img src="assets/sudipta.jpg" class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title">Sudipta Chakraborty</h5>
+            <p class="card-text">Drama, Music</p>
+            <button class="btn btn-success"><a
+                href="https://www.facebook.com/profile.php?id=100047731022821">Connect</a></button>
+          </div>
+        </div>
+        <div class="card">
+          <img src="assets/shreyanka.jpg" class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title">Shreyanka Nandy</h5>
+            <p class="card-text">Grooming</p>
+            <button class="btn btn-success"><a
+                href="https://www.facebook.com/profile.php?id=100009007363867">Connect</a></button>
+          </div>
+        </div>
+        <div class="card">
+          <img src="assets/aditi.jpg" class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title">Aditi Chatterjee</h5>
+            <p class="card-text">Logo Design</p>
+            <button class="btn btn-success"><a href="https://www.instagram.com/_.adi.tea__/">Connect</a></button>
+          </div>
+        </div>
+        <div class="card">
+          <img src="assets/shreya.jpg" class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title">Shreya Dutta</h5>
+            <p class="card-text">Dance</p>
+            <button class="btn btn-success"><a
+                href="https://www.facebook.com/profile.php?id=100034879712890">Connect</a></button>
+          </div>
+        </div>
+        <div class="card">
+          <img src="assets/swastika.jpg" class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title">Swastika Ghosh</h5>
+            <p class="card-text">Dance, Grooming</p>
+            <button class="btn btn-success"><a
+                href="https://www.facebook.com/profile.php?id=100040066356240">Connect</a></button>
+          </div>
+        </div>
+        <div class="card">
+          <img src="assets/preetha.jpg" class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title">Preetha Mazumder</h5>
+            <p class="card-text">Dance, Drama</p>
+            <button class="btn btn-success"><a
+                href="https://www.facebook.com/stephenitespiu.majumdar">Connect</a></button>
+          </div>
+        </div>
+        <div class="card">
+          <img src="assets/aditya.jpg" class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title">Aditya Anand</h5>
+            <p class="card-text">Grooming</p>
+            <button class="btn btn-success"><a href="https://m.facebook.com/aditya.karn.9216">Connect</a></button>
+          </div>
+        </div>
+        <div class="card">
+          <img src="assets/pallavi.jpg" class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title">Pallavi Dhar</h5>
+            <p class="card-text">Dance, Grooming</p>
+            <button class="btn btn-success"><a
+                href="https://www.instagram.com/pallavi_dhar_?r=nametag">Connect</a></button>
+          </div>
+        </div>
+        <div class="card">
+          <img src="assets/stela.jpg" class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title">Stela Halder</h5>
+            <p class="card-text">Dance, Grooming</p>
+            <button class="btn btn-success"><a
+                href="https://www.instagram.com/____the_mystical_drug/">Connect</a></button>
+          </div>
+        </div>
+        <div class="card">
+          <img src="assets/rimi.jpg" class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title">Rimi Hazra</h5>
+            <p class="card-text">Dance</p>
+            <button class="btn btn-success"><a
+                href="https://www.instagram.com/oh_my_god_someone_actually___/">Connect</a></button>
+          </div>
+        </div>
+        <div class="card">
+          <img src="assets/shuvra.jpg" class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title">Shuvra Das</h5>
+            <p class="card-text">Logo Design</p>
+            <button class="btn btn-success"><a href="https://www.instagram.com/s_h_u_v_r_a_o8/">Connect</a></button>
+          </div>
+        </div>
+        <div class="card">
+          <img src="assets/charchika.jpg" class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title">Charchika Biswas</h5>
+            <p class="card-text">Dance, Drama</p>
+            <button class="btn btn-success"><a href="https://www.instagram.com/_.charchika.__/">Connect</a></button>
+          </div>
+        </div>
+        <div class="card">
+          <img src="assets/saraswata.jpg" class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title">Saraswata Jash</h5>
+            <p class="card-text">Music</p>
+            <button class="btn btn-success"><a href="https://www.instagram.com/hold_my_taaffeite/">Connect</a></button>
+          </div>
+        </div>
+        <div class="card">
+          <img src="assets/subhadeep.jpg" class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title">Subhadeep Banerjee</h5>
+            <p class="card-text">Grooming</p>
+            <button class="btn btn-success"><a
+                href="https://www.facebook.com/subhadeep.banerjee.372">Connect</a></button>
+          </div>
+        </div>
+        <div class="card">
+          <img src="assets/ananya.jpg" class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title">Ananya Ghosh</h5>
+            <p class="card-text">Dance, Grooming</p>
+            <button class="btn btn-success"><a
+                href="https://instagram.com/ononyaaa__?utm_medium=copy_link">Connect</a></button>
+          </div>
+        </div>
+        <div class="card">
+          <img src="assets/neha.jpg" class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title">Neha Singh</h5>
+            <p class="card-text">Dance</p>
+            <button class="btn btn-success"><a
+                href="https://instagram.com/silvershadde?utm_medium=copy_link">Connect</a></button>
+          </div>
+        </div>
+        <div class="card">
+          <img src="assets/debolina.jpg" class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title">Debolina Bhattacharjee</h5>
+            <p class="card-text">Dance, Grooming</p>
+            <button class="btn btn-success"><a
+                href="https://instagram.com/camouflage__girl77?utm_medium=copy_link">Connect</a></button>
+          </div>
         </div>
       </div>
+    </div>
   </section>
 
   <section id="contact">
     <h2>Contact Us</h2>
     <div class="row">
-      <div class="col">Sex</div>
+
       <div class="col"><iframe
           src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3685.5418050696276!2d88.45944142062376!3d22.521368055924725!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a0274a1c0115249%3A0x975599390971e184!2sBengal%20Institute%20Of%20Technology!5e0!3m2!1sen!2sin!4v1623690997095!5m2!1sen!2sin"
           width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe></div>
     </div>
   </section>
+
+
+  <footer class="footer">
+
+    <h3 class="text-center">Developed by</h3>
+    <div class="row">
+      <div class="col">Raunak Mandal</div>
+      🤝
+      <div class="col">Kabirul Hassan</div>
+    </div>
+
+  </footer>
 </body>
 
 </html>
