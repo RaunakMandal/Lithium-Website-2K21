@@ -106,16 +106,18 @@ section#home {
 
 nav {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   min-height: 8vh;
-  background: rgba(38, 41, 34, 0.5);
+  background: rgba(38, 41, 34, 0);
   font-family: "Noto Sans JP", sans-serif;
   backdrop-filter: blur(5px);
   position: -webkit-sticky; /* Safari */
   position: fixed;
   width: 100%;
   top: 0;
+  padding-left: 10px;
+  padding-right: 10px;
   z-index: 999;
 }
 .nav-logo {
@@ -153,6 +155,7 @@ nav {
 .burger {
   display: none;
   cursor: pointer;
+  z-index: 999;
 }
 
 @media screen and (max-width: 768px) {
@@ -162,14 +165,16 @@ nav {
   .nav-links {
     position: absolute;
     right: 0px;
-    height: 92vh;
-    top: 8vh;
-    background: rgba(38, 41, 34, 0.5);
+    height: 100vh;
+    /* height: 92vh; */
+    /* top: 8vh; */
+    top: 0;
+    background: rgba(38, 41, 34, 0.7);
     backdrop-filter: blur(5px);
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 50%;
+    width: 100%;
     transform: translateX(100%);
     transition: transform 0.3s ease-in;
     z-index: 999;
