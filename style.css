@@ -68,9 +68,7 @@ section#home {
   align-items: center;
   gap: 8px;
 }
-.carousel {
-  margin-top: 36px;
-}
+
 #event_card img {
   filter: blur(3px) !important;
 }

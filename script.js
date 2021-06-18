@@ -60,7 +60,6 @@ $(document).ready(function () {
     document.getElementById("minstext").innerHTML = minutes + "<br>MINS";
     document.getElementById("secstext").innerHTML = seconds + "<br>SECS";
   }, 1000);
-
   $(".owl-carousel").owlCarousel({
     items: 3,
     loop: true,
@@ -84,6 +83,7 @@ $(document).ready(function () {
       },
     },
   });
+
   $(".play").on("click", function () {
     owl.trigger("play.owl.autoplay", [1000]);
   });
