@@ -96,22 +96,11 @@ section#home {
   background-color: #ff9f4a;
 }
 
-/* nav bar style start */
-
-* {
-  margin: 0px;
-  padding: 0px;
-  box-sizing: border-box;
-}
-
 nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
   min-height: 8vh;
-  background: rgba(38, 41, 34, 0);
-  font-family: "Noto Sans JP", sans-serif;
-  backdrop-filter: blur(5px);
   position: -webkit-sticky; /* Safari */
   position: fixed;
   width: 100%;
@@ -124,19 +113,22 @@ nav {
   color: white;
   font-size: 24px;
   font-weight: bold;
-  letter-spacing: 5px;
+  letter-spacing: 2px;
 }
 
 .nav-links {
+  padding-top: 32px;
   display: flex;
-  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
   width: 40%;
 }
 
 .nav-links a {
   color: white;
   text-decoration: none;
-  font-size: 16px;
+  font-size: 26px;
   font-weight: bold;
 }
 
@@ -157,6 +149,37 @@ nav {
   cursor: pointer;
   z-index: 999;
 }
+
+.card2 {
+  margin-top: 50px;
+}
+
+.slick-slide img {
+  height: 50px;
+  width: 50px;
+  margin: 0 auto;
+  max-width: 120px;
+  border: 3px solid #fff;
+  border-radius: 50%;
+  margin-bottom: 25px;
+}
+
+.item {
+padding: 15px;
+outline: none;  
+}
+
+.item-inner {
+    background: linear-gradient(45deg, #ff6600, #fff000);
+    text-align: center;
+    border-radius: 18px;
+    padding: 25px;
+}
+
+
+
+
+
 
 @media screen and (max-width: 768px) {
   body {

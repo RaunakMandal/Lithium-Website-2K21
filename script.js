@@ -15,7 +15,7 @@ const navSlide = () => {
         if (link.style.animation) {
           link.style.animation = "";
         } else {
-          link.style.animation = `navLinkFade 0.5s ease forwards ${
+          link.style.animation = `navLinkFade 0.2s ease forwards ${
             index / 7 + 0.3
           }s`;
         }
@@ -26,10 +26,14 @@ const navSlide = () => {
   });
 };
 
-
 $(document).ready(function () {
-
   navSlide();
+
+  $(".slider").slick({
+    centerMode: true,
+    slidesToWhow: 3,
+  });
+
   // Changing Text Animation
   var type = new Typed(".changing", {
     strings: [
@@ -61,4 +65,14 @@ $(document).ready(function () {
     document.getElementById("minstext").innerHTML = minutes + "<br>MINS";
     document.getElementById("secstext").innerHTML = seconds + "<br>SECS";
   }, 1000);
+
+  $.getJSON("team.json", (json) => {
+    console.log(json);
+    var doc = document.getElementsByClassName("slider");
+    doc[0].innerHTML = "";
+
+    for (let i = 0; i < json.length; i++) {
+      doc[0].innerHTML += `<div class="item"><div class="item-inner"><img src='assets/${json[i].img}'><h4>${json[i].name}</h4><p>${json[i].team}</p><div class="social"><a href="${json[i].social}"><button type="button" class="btn btn-primary">Connect</button></a></div></div></div>`;
+    }
+  });
 });
