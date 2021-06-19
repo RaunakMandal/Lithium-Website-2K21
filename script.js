@@ -44,7 +44,7 @@ $(document).ready(function () {
     loop: true,
   });
   // Countdown
-  var finalDate = new Date("Jun 20, 2021").getTime();
+  var finalDate = new Date("Jun 25, 2021").getTime();
   var x = setInterval(function () {
     var now = new Date().getTime();
     var distance = finalDate - now;
@@ -60,10 +60,35 @@ $(document).ready(function () {
     document.getElementById("minstext").innerHTML = minutes + "<br>MINS";
     document.getElementById("secstext").innerHTML = seconds + "<br>SECS";
   }, 1000);
-  $(".owl-carousel").owlCarousel({
+
+  $(".owl1").owlCarousel({
     items: 3,
     loop: true,
-    margin: 10,
+    margin: 22,
+    autoplay: true,
+    autoplayTimeout: 3000,
+    autoplayHoverPause: true,
+    nav: false,
+    dots: true,
+    responsiveClass: true,
+    responsive: {
+      0: {
+        items: 1,
+      },
+      600: {
+        items: 2,
+      },
+      1000: {
+        items: 3,
+        loop: true,
+      },
+    },
+  });
+
+  $(".owl2").owlCarousel({
+    items: 3,
+    loop: true,
+    margin: 22,
     autoplay: true,
     autoplayTimeout: 3000,
     autoplayHoverPause: true,
@@ -78,16 +103,9 @@ $(document).ready(function () {
         items: 3,
       },
       1000: {
-        items: 3,
+        items: 4,
         loop: true,
       },
     },
-  });
-
-  $(".play").on("click", function () {
-    owl.trigger("play.owl.autoplay", [1000]);
-  });
-  $(".stop").on("click", function () {
-    owl.trigger("stop.owl.autoplay");
   });
 });

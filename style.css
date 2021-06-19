@@ -1,18 +1,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300;400&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Amaranth&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Amaranth&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 @font-face {
-  font-family: 'among-us';
-  src: url('./assets/fonts/among-us.ttf');
+  font-family: "among-us";
+  src: url("./assets/fonts/among-us.ttf");
 }
 html {
   scroll-behavior: smooth;
 }
 body {
+  height: 100%;
   margin: 0;
   padding: 0;
   background-image: url("./assets/images/home_bg.png");
-
 }
 
 section {
@@ -36,7 +36,7 @@ section {
 .welcome,
 .official,
 .change {
-  font-family: 'Amaranth',sans-serif;
+  font-family: "Amaranth", sans-serif;
   color: white;
   font-size: 1.8em;
 }
@@ -48,7 +48,7 @@ section {
   text-transform: uppercase;
   width: 100%;
   text-align: center;
-  font-family: 'among-us';
+  font-family: "among-us";
 }
 
 #timer,
@@ -59,7 +59,7 @@ section {
 }
 
 #time {
-  font-family: 'Amaranth',sans-serif;
+  font-family: "Amaranth", sans-serif;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   color: #ffffff;
   width: 100px;
@@ -73,18 +73,18 @@ section {
   font-size: 22px;
 }
 
-
 #about {
-  font-family: 'Amaranth',sans-serif;
+  font-family: "Amaranth", sans-serif;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 
 .head-text {
-  font-family: 'Amaranth',sans-serif;
+  font-family: "Amaranth", sans-serif;
   color: white;
   margin-top: 72px;
+  padding: 24px;
 }
 
 .abt_text_p {
@@ -99,14 +99,16 @@ section {
   padding: 22px;
 }
 
-
 #events {
-  min-height: 110vh;
+  height: 100vh;
+  font-family: "Amaranth", sans-serif;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
+
 #team {
+  font-family: "Amaranth", sans-serif;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -120,20 +122,23 @@ section {
   gap: 8px;
 }
 
-.display-5 {
-  color: #fd297a;
-  font-size: 34px !important;
-  font-weight: 500 !important;
+.card,
+.card-img {
+  padding: 5px;
+  border-radius: 5% !important;
 }
 
-#team {
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+.card-img-top {
+  border: #ffffff solid 3px;
+  border-radius: 50% !important;
 }
-
-.card{
-  border-radius: 0%;
+.card-title,
+.card-text {
+  color: white;
+  font-size: 22px;
+}
+.card-img {
+  height: 350px;
 }
 
 .card-body a {
@@ -142,14 +147,24 @@ section {
 }
 
 #tchr {
-  height: 180px;
-  width: 180px;
+  height: 250px;
+  width: 250px;
   border: #ffffff solid 3px;
   border-radius: 50%;
+  padding: 0px !important;
+}
+
+#contact {
+  height: 100vh;
+  font-family: "Amaranth", sans-serif;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 nav {
-  font-family: 'Amaranth',sans-serif;
+  backdrop-filter: blur(10px);
+  font-family: "Amaranth", sans-serif;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -171,18 +186,19 @@ nav {
   gap: 24px;
 }
 
-.nav-logo a, .nav-links a {
+.nav-logo a,
+.nav-links a {
   text-decoration: none;
   color: white;
-  font-size: 24px;
+  font-size: 26px;
   font-weight: bold;
   letter-spacing: 2px;
 }
 
-.nav-logo :hover, .nav-links  :hover {
-  color: palevioletred
+.nav-logo :hover,
+.nav-links :hover {
+  color: palevioletred;
 }
-
 
 .nav-links li {
   list-style: none;
@@ -202,9 +218,15 @@ nav {
   z-index: 999;
 }
 
+.text-center {
+  font-size: 22px;
+  color: #fff;
+}
 
-
-
+footer a {
+  color: white;
+  text-decoration: none;
+}
 
 @media screen and (max-width: 768px) {
   body {
