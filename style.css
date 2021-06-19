@@ -178,6 +178,10 @@ nav {
   z-index: 999;
 }
 
+.no-blur{
+  backdrop-filter: none !important;
+}
+
 .nav-links {
   padding-top: 32px;
   display: flex;
@@ -238,7 +242,7 @@ footer a {
     height: 100vh;
     top: 0;
     background: rgba(38, 41, 34, 0.7);
-    backdrop-filter: blur(5px);
+    backdrop-filter: blur(10px) !important;
     display: flex;
     flex-direction: column;
     align-items: center;

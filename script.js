@@ -1,6 +1,7 @@
 const navSlide = () => {
   const burger = document.querySelector(".burger");
   const nav = document.querySelector(".nav-links");
+  const navbar = document.querySelector("nav");
   const navLinks = document.querySelectorAll(".nav-links li");
 
   let elementsArray = document.querySelectorAll(".nav-links li, .burger");
@@ -9,7 +10,7 @@ const navSlide = () => {
     elem.addEventListener("click", function () {
       //toggle navbar
       nav.classList.toggle("nav-active");
-
+      navbar.classList.toggle("no-blur");
       //animate links
       navLinks.forEach((link, index) => {
         if (link.style.animation) {
