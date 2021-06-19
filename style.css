@@ -118,6 +118,10 @@ section {
   background-color: #ff9f4a;
 }
 
+.card{
+  border-radius: 0%;
+}
+
 .card-body a {
   color: #ffffff !important;
   text-decoration: none !important;
