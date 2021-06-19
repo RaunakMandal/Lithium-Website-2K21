@@ -24,7 +24,7 @@ section {
 }
 
 #home {
-  background-image: url("https://4kwallpapers.com/images/wallpapers/among-us-minimal-colorful-space-5k-8k-3840x2160-4081.png");
+  background-image: url("./assets/images/home_bg.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
