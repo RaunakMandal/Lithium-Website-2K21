@@ -11,6 +11,8 @@ html {
 body {
   margin: 0;
   padding: 0;
+  background-image: url("./assets/images/home_bg.png");
+
 }
 
 section {
@@ -53,7 +55,7 @@ section {
 #event_c {
   display: flex;
   justify-content: center;
-  gap: 12px;
+  gap: 10px;
 }
 
 #time {
@@ -62,21 +64,41 @@ section {
   color: #ffffff;
   width: 100px;
   height: 100px;
-  border-radius: 50%;
+  border-radius: 60%;
   display: flex;
   justify-content: center;
   align-items: center;
   background-image: linear-gradient(#fd297a, #9424f0);
   margin-top: 10px;
-  font-size: 20px;
+  font-size: 22px;
 }
+
+
 #about {
+  font-family: 'Amaranth',sans-serif;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  background-color: #9424f0;
-  TODO: here we will insert image so space needed
 }
+
+.head-text {
+  font-family: 'Amaranth',sans-serif;
+  color: white;
+  margin-top: 72px;
+}
+
+.abt_text_p {
+  font-size: 24px;
+  color: white;
+  text-shadow: 2px 2px black;
+}
+
+.main_logo {
+  height: 250px;
+  width: 250px;
+  padding: 22px;
+}
+
 
 #events {
       height: 100vh;
@@ -84,13 +106,11 @@ section {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  background-color: #6f00ed;
 }
 #team {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  background-color: #6f00ed;
 }
 
 #col_new {
@@ -99,10 +119,6 @@ section {
   justify-content: center;
   align-items: center;
   gap: 8px;
-}
-
-#event_card img {
-  filter: blur(3px) !important;
 }
 
 .display-5 {
@@ -115,7 +131,6 @@ section {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  background-color: #ff9f4a;
 }
 
 .card{
@@ -144,15 +159,9 @@ nav {
   position: fixed;
   width: 100%;
   top: 0;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 32px;
+  padding-right: 32px;
   z-index: 999;
-}
-.nav-logo {
-  color: white;
-  font-size: 24px;
-  font-weight: bold;
-  letter-spacing: 2px;
 }
 
 .nav-links {
@@ -162,12 +171,19 @@ nav {
   align-items: center;
   gap: 24px;
 }
-.nav-links a {
-  color: white;
+
+.nav-logo a, .nav-links a {
   text-decoration: none;
-  font-size: 26px;
+  color: white;
+  font-size: 24px;
   font-weight: bold;
+  letter-spacing: 2px;
 }
+
+.nav-logo :hover, .nav-links  :hover {
+  color: palevioletred
+}
+
 
 .nav-links li {
   list-style: none;
