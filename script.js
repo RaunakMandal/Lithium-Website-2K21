@@ -64,11 +64,11 @@ $(document).ready(function () {
   $(".owl1").owlCarousel({
     items: 3,
     loop: true,
+    nav: false,
     margin: 22,
     autoplay: true,
     autoplayTimeout: 3000,
     autoplayHoverPause: true,
-    nav: false,
     dots: true,
     responsiveClass: true,
     responsive: {
@@ -76,6 +76,9 @@ $(document).ready(function () {
         items: 1,
       },
       600: {
+        items: 1,
+      },
+      800: {
         items: 2,
       },
       1000: {
@@ -90,9 +93,10 @@ $(document).ready(function () {
     loop: true,
     margin: 22,
     autoplay: true,
-    autoplayTimeout: 3000,
+    autoplayTimeout: 2000,
     autoplayHoverPause: true,
-    nav: false,
+    nav: true,
+    navText: ["<i class='fa fa-angle-left'></i>", "<i class='fa fa-angle-right'></i>"],
     dots: false,
     responsiveClass: true,
     responsive: {
