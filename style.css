@@ -351,9 +351,9 @@ footer a {
     font-size: 20px !important;
   }
   .card-text{
-    font-size: 18px !important;
+    font-size: 17px !important;
   }
   .card-text{
-    min-height: 70px;
+    min-height: 75px;
   }
 }
