@@ -10,7 +10,8 @@ const navSlide = () => {
     elem.addEventListener("click", function () {
       //toggle navbar
       nav.classList.toggle("nav-active");
-      navbar.classList.toggle("no-blur");
+      //toggle-blur
+      navbar.classList.toggle("no-blur"); 
       //animate links
       navLinks.forEach((link, index) => {
         if (link.style.animation) {
