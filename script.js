@@ -114,4 +114,40 @@ $(document).ready(function () {
       },
     },
   });
+  const openmfButtons = document.querySelectorAll('[data-mf-target]')
+const closemfButtons = document.querySelectorAll('[data-close-button]')
+const overlay = document.getElementById('overlay')
+
+openmfButtons.forEach(button => {
+  button.addEventListener('click', () => {
+    const mf = document.querySelector(button.dataset.mfTarget)
+    openmf(mf)
+  })
+})
+
+overlay.addEventListener('click', () => {
+  const mfs = document.querySelectorAll('.mf.active')
+  mfs.forEach(mf => {
+    closemf(mf)
+  })
+})
+
+closemfButtons.forEach(button => {
+  button.addEventListener('click', () => {
+    const mf = button.closest('.mf')
+    closemf(mf)
+  })
+})
+
+function openmf(mf) {
+  if (mf == null) return
+  mf.classList.add('active')
+  overlay.classList.add('active')
+}
+
+function closemf(mf) {
+  if (mf == null) return
+  mf.classList.remove('active')
+  overlay.classList.remove('active')
+}
 });
