@@ -9,6 +9,7 @@ html {
   scroll-behavior: smooth;
 }
 body {
+  text-shadow: 2px 2px 5px black;
   height: 100%;
   margin: 0;
   padding: 0;
@@ -27,7 +28,8 @@ section {
 }
 
 #home {
-  margin-top: 8vh;
+  padding-top: 0;
+  margin-top: 4vh;
   background-image: url("./assets/images/home_bg.png");
   background-repeat: no-repeat;
   background-position: center;
@@ -90,9 +92,9 @@ section {
 }
 
 .abt_text_p {
+  text-shadow: 3px 3px 5px black;
   font-size: 24px;
   color: white;
-  text-shadow: 2px 2px black;
 }
 
 .main_logo {
@@ -244,6 +246,8 @@ footer a {
     backdrop-filter: none !important;
   }
   .nav-links {
+    padding-top: 90px;
+    padding-left: 0;
     position: absolute;
     right: 0px;
     height: 100vh;
@@ -393,6 +397,7 @@ footer a {
   display: flex;
 }
 .display-4{
+  text-shadow: 2px 2px 5px black;
   text-align: center;
   justify-content: center;
   margin: 0;
@@ -458,10 +463,10 @@ footer a {
   align-items: center;
 }
 
-.mf-header .title {
+/* .mf-header {
   font-size: 1.25rem;
   font-weight: bold;
-}
+} */
 
 .mf-header .close-button {
   cursor: pointer;
@@ -498,7 +503,7 @@ footer a {
   max-width: 300px;
   margin: auto;
   text-align: center;
-  font-family: arial;
+  font-family: "Amaranth", sans-serif;
   color: aliceblue;
   background-color: #000;
 }
@@ -509,15 +514,16 @@ footer a {
     border-radius: 50%;
     border: 5px solid seagreen;
     transition: all 0.3s ease;
+    margin-bottom: 20px;
 }
-.abc .title {
+/* .abc .title {
   color: white;
   font-size: 22px;
-}
+} */
 
 .abc a {
   text-decoration: none;
-  font-size: 22px;
+  font-size: 25px;
   padding: 5px;
   color: white;
 }
@@ -525,3 +531,32 @@ footer a {
 .abc a:hover {
   opacity: 0.7;
 }
+
+.dev-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  align-items: center;
+}
+
+.hand{
+  margin: 0;
+}
+
+.btn-link{
+  text-decoration: none !important;
+  color: rgba(0, 169, 217, 1) !important;
+  font-family: "Amaranth", sans-serif;
+  font-size: 20px !important;
+}
+
+.btn:hover{
+  color: white !important;
+}
+
+.okboomer{
+  font-size: 30px;
+  font-family: "Amaranth", sans-serif !important;
+}
+
