@@ -26,6 +26,7 @@ section {
 }
 
 #home {
+  margin-top: 8vh;
   background-image: url("./assets/images/home_bg.png");
   background-repeat: no-repeat;
   background-position: center;
@@ -185,6 +186,11 @@ nav {
   flex-direction: row;
   align-items: center;
   gap: 24px;
+}
+.nav-logo{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
 .nav-logo a,
@@ -356,4 +362,57 @@ footer a {
   .card-text{
     min-height: 75px;
   }
+}
+.college{
+
+  /* background-color: white; */
+  border-radius: 100%;
+  max-width: fit-content;
+  /* padding: 5px; */
+  margin: auto;
+}
+.college img{
+  height: 38px;
+  /* padding: 5px; */
+  margin: 5px;
+  /* border-radius: 100%; */
+}
+/* decoration */
+
+.heading-2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+}
+.decoration{
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.display-4{
+  text-align: center;
+  justify-content: center;
+  margin: 0;
+  font-family: "among-us" !important;
+  letter-spacing: 5px;
+  font-size: 70px !important;
+}
+.decoration img {
+  width: 10rem;
+  z-index: 2;
+  transition: all 0.75s ease-out;
+}
+.circle {
+  width: 7rem;
+  height: 7rem;
+  background: linear-gradient(
+    to right,
+    rgba(245, 70, 66, 0.75),
+    rgba(8, 83, 156, 0.75)
+  );
+  position: absolute;
+  border-radius: 50%;
+  z-index: 1;
 }
