@@ -178,9 +178,6 @@ nav {
   z-index: 999;
 }
 
-.no-blur{
-  backdrop-filter: none !important;
-}
 
 .nav-links {
   padding-top: 32px;
@@ -235,6 +232,9 @@ footer a {
 @media screen and (max-width: 768px) {
   body {
     overflow-x: hidden;
+  }
+  .no-blur{
+    backdrop-filter: none !important;
   }
   .nav-links {
     position: absolute;
