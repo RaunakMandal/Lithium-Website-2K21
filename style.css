@@ -545,13 +545,13 @@ footer a {
 
 .btn-link{
   text-decoration: none !important;
-  color: rgba(0, 169, 217, 1) !important;
+  color: white !important;
   font-family: "Amaranth", sans-serif;
   font-size: 20px !important;
 }
 
 .btn:hover{
-  color: white !important;
+  color: rgba(255, 0, 146, 1) !important;
 }
 
 .okboomer{
