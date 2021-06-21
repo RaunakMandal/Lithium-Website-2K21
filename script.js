@@ -61,6 +61,13 @@ $(document).ready(function () {
     document.getElementById("hourtext").innerHTML = hours + "<br>HOURS";
     document.getElementById("minstext").innerHTML = minutes + "<br>MINS";
     document.getElementById("secstext").innerHTML = seconds + "<br>SECS";
+    if (distance < 0) {
+      clearInterval(x);
+      document.getElementById("daytext").innerHTML = 0 + "<br>DAYS";
+      document.getElementById("hourtext").innerHTML = 0 + "<br>HOURS";
+      document.getElementById("minstext").innerHTML = 0 + "<br>MINS";
+      document.getElementById("secstext").innerHTML = 0 + "<br>SECS";
+    }
   }, 1000);
 
   $(".owl1").owlCarousel({
