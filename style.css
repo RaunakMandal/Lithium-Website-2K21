@@ -364,7 +364,8 @@ footer a {
     font-size: 17px !important;
   }
   .card-text{
-    min-height: 80px !important;
+    min-height: 50px !important;
+    margin: 0;
   }
 }
 .college{
