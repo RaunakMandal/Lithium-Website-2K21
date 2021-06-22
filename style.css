@@ -137,8 +137,12 @@ section {
 }
 .card-title,
 .card-text {
+  text-shadow: 2px 2px 5px black;
   color: white;
   font-size: 22px;
+}
+.card-text{
+  min-height: 65px !important;
 }
 .card-img {
   height: 350px;
@@ -158,6 +162,9 @@ section {
 }
 
 #contact {
+  justify-content: space-between;
+  overflow: visible;
+  padding-top: 20px !important;
   height: 100vh;
   font-family: "Amaranth", sans-serif;
   background-repeat: no-repeat;
@@ -298,7 +305,6 @@ footer a {
 
 .owl-carousel .owl-nav div.owl-prev, 
 .owl-carousel .owl-nav div.owl-next {
-    /* color: rgba(255, 255, 255, 0); */
     color: white;
     font-size: 30px;
     margin-top: -20px;
@@ -368,6 +374,16 @@ footer a {
     margin: 0;
   }
 }
+@media screen and (max-width: 1024px) {
+  .card-title{
+    font-size: 18px !important;
+  }
+  .card-text{
+    min-height: 80px !important;
+    margin: 0;
+    font-size: 16px !important;
+  }
+}
 .college{
 
   /* background-color: white; */
@@ -395,6 +411,9 @@ footer a {
   align-items: center;
   justify-content: center;
   display: flex;
+}
+.display-5{
+  text-shadow: 2px 2px 5px black;
 }
 .display-4{
   text-shadow: 2px 2px 5px black;
@@ -434,6 +453,9 @@ footer a {
   padding: 0;
 }
 /* footer */
+.footer{
+  padding-top: 50px;
+}
 *, *::after, *::before {
   box-sizing: border-box;
 }
@@ -542,6 +564,15 @@ footer a {
 
 .hand{
   margin: 0;
+}
+
+.card .btn-link{
+  border: solid white 2px;
+  border-radius: 10%;
+}
+
+.card .btn-link:hover{
+  background-color: seagreen !important;
 }
 
 .btn-link{
