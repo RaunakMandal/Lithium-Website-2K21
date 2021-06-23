@@ -142,7 +142,7 @@ section {
   font-size: 22px;
 }
 .card-text{
-  min-height: 65px !important;
+  min-height: 70px !important;
 }
 .card-img {
   height: 350px;
@@ -566,6 +566,7 @@ footer a {
 }
 
 .card .btn-link{
+  padding: 7px;
   border: solid white 2px;
   border-radius: 10%;
 }
