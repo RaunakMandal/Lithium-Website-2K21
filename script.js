@@ -18,7 +18,7 @@ const navSlide = () => {
           link.style.animation = "";
         } else {
           link.style.animation = `navLinkFade 0.2s ease forwards ${
-            index / 7 + 0.3
+            index / 10 + 0.1
           }s`;
         }
       });
@@ -39,14 +39,13 @@ $(document).ready(function () {
       "Dance",
       "Recitation",
       "Talent Hunt",
-      "Mr and Miss Freshers",
     ],
     typeSpeed: 100,
     backSpeed: 60,
     loop: true,
   });
   // Countdown
-  var finalDate = new Date("Jun 25, 2021").getTime();
+  var finalDate = new Date("Jul 04, 2021").getTime();
   var x = setInterval(function () {
     var now = new Date().getTime();
     var distance = finalDate - now;
