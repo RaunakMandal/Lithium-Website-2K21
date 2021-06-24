@@ -39,7 +39,6 @@ $(document).ready(function () {
       "Dance",
       "Recitation",
       "Talent Hunt",
-      "Mr and Miss Freshers",
     ],
     typeSpeed: 100,
     backSpeed: 60,
