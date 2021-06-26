@@ -45,7 +45,7 @@ $(document).ready(function () {
     loop: true,
   });
   // Countdown
-  var finalDate = new Date("Jul 04, 2021").getTime();
+  var finalDate = new Date("Jul 10, 2021 16:00:00").getTime();
   var x = setInterval(function () {
     var now = new Date().getTime();
     var distance = finalDate - now;
