@@ -164,7 +164,7 @@ section {
 #contact {
   justify-content: space-between;
   padding-top: 30px !important;
-  height: 100vh;
+  min-height: 100vh;
   font-family: "Amaranth", sans-serif;
   background-repeat: no-repeat;
   background-position: center;
