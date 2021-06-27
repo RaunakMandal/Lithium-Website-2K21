@@ -644,7 +644,7 @@ footer a {
 .ball {
   position:fixed;
   border-radius: 100%;
-  opacity: 0.7;
+  opacity: 1;
   z-index: 1 !important;
 }
 div{
