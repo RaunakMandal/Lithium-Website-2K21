@@ -160,12 +160,13 @@ section {
   border: red solid 5px;
   border-radius: 50%;
   padding: 0px !important;
+  z-index: 2;
 }
 
 #contact {
   justify-content: space-between;
   padding-top: 30px !important;
-  height: 100vh;
+  min-height: 100vh;
   font-family: "Amaranth", sans-serif;
   background-repeat: no-repeat;
   background-position: center;
@@ -641,4 +642,12 @@ footer a {
   font-size: 20px;
   font-family: "Amaranth", sans-serif !important;
 }
-
+.ball {
+  position:fixed;
+  border-radius: 100%;
+  opacity: 1;
+  z-index: 1 !important;
+}
+div{
+  z-index: 2;
+}
