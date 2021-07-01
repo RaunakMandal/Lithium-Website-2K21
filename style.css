@@ -39,13 +39,14 @@ section {
 .welcome,
 .official,
 .change {
+  text-shadow: 2px 2px 5px black;
   font-family: "Amaranth", sans-serif;
   color: white;
   font-size: 1.8em;
 }
 
 .main_text {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-shadow: 2px 2px 5px black;
   font-size: 6em;
   letter-spacing: 2px;
   color: white;
