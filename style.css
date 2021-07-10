@@ -105,13 +105,31 @@ section {
 }
 
 #events {
-  height: 100vh;
+  min-height: 100vh;
   font-family: "Amaranth", sans-serif;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
-
+.attraction{
+  padding-top: 20px;
+  justify-content: space-between !important;
+}
+.attraction img{
+  height: 350px;
+  padding: 10px;
+}
+@media screen and (max-width:1024px) {
+  .attraction img{
+    margin-bottom: 10px;
+  }
+}
+.band-text{   
+  padding: 20px !important;
+  color: white;
+  text-align: justify;
+  font-size: 22px;
+}
 #team {
   font-family: "Amaranth", sans-serif;
   background-repeat: no-repeat;
